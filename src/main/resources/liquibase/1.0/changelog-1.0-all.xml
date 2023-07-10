@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+        http://www.liquibase.org/xml/ns/dbChangeLog/dbChangeLog-3.1.xsd">
+
+        <changeSet id="1" author="">
+                <sqlFile path="liquibase/1.0/changeLog-1.0.0-company-table.sql"/>
+                <comment>"Created 1"</comment>
+        </changeSet>
+        <changeSet id="2" author="">
+                <sqlFile path="liquibase/1.0/changeLog-1.0.0-employee-table.sql"/>
+                <comment>"Created 2</comment>
+        </changeSet>
+</databaseChangeLog>
